@@ -14,3 +14,6 @@ wrk -t12 -c400 -d30s -s load_test.lua http://localhost:8000
 3. -d30s: Runs the test for 30 seconds.
 4. -s load_test.lua: Specifies the Lua script to use
 5. http://localhost:8000: The URL of the server to test.
+
+## Testing multiple scenarios
+Go to main.rs and replace the scenario in main function
