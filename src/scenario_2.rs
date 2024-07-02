@@ -1,3 +1,5 @@
+//scenario where we are using a thread pool in sqlite
+
 use rusqlite::{Connection, OpenFlags};
 use tiny_http::{Server, Response};
 use std::sync::Arc;
